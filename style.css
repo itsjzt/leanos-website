@@ -1,13 +1,25 @@
 :root {
-  --yellow: #ffd35f;
-  --green: #3d8676;
-  --brown: #6e3434;
-  --blue: #54b4e1;
-  --white: #ffffff;
+  --primary: #ffd35f;
+  --accent: #3d8676;
 }
 
 .hero-section {
-  background-color: #3d8676;
-  padding: 5rem;
-  background: url("assets/texture.svg");
+  background-color: var(--accent);
+  color: var(--primary);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
+}
+
+section {
+  min-height: 100vh;
+}
+
+.hero-section h1 {
+  font-family: "PT Serif", serif;
+  font-size: 15vh;
+}
+
+.hero-section h3,
+.hero-section h2 {
+  font-size: 5vh;
 }
