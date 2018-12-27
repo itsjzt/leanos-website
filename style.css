@@ -1,0 +1,13 @@
+:root {
+  --yellow: #ffd35f;
+  --green: #3d8676;
+  --brown: #6e3434;
+  --blue: #54b4e1;
+  --white: #ffffff;
+}
+
+.hero-section {
+  background-color: #3d8676;
+  padding: 5rem;
+  background: url("assets/texture.svg");
+}
