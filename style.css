@@ -1,22 +1,59 @@
-:root {
-  --primary: #ffd35f;
-  --accent: #3d8676;
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #232323;
+  color: #fdfdfd;
 }
 
 .hero-section {
-  background-color: var(--accent);
-  color: var(--primary);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 72%);
   min-height: 100vh;
 }
 
 .hero-section h1 {
-  font-family: "PT Serif", serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15vh;
 }
 
 .hero-section h3,
 .hero-section h2 {
   font-size: 5vh;
+}
+
+.custom-btn {
+  font-family: inherit;
+  padding: 1rem 1.5rem;
+   outline:  none;
+  box-shadow: none;
+  border: none;
+}
+
+.custom-btn:hover,
+.custom-btn:active,
+.custom-btn:focus {
+  outline:  none;
+  box-shadow: none;
+  border: none;
+}
+
+.card {
+  background: inherit;
+  color: inherit;
+  border:  none;
+}
+
+.custom-list li {
+  font-size:  150%;
+  font-weight: 400;
+  margin-top: 1rem;
+  background: inherit;
+  color: inherit;
+  margin-bottom: 1rem;
+}
+
+.feature-section {
+  margin-top: 5vh;
+  min-height: 100vh;
+}
+
+.contributer {
+  margin-top: 5vh;
 }

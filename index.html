@@ -9,16 +9,14 @@
       content="A nice custom ROM for android device with performance and customizability in mind"
     />
     <title>Lean OS - Custom ROM for android devices</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=PT+Serif"
-      rel="stylesheet"
-    />
+   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -28,13 +26,14 @@
       <section
         class="hero-section d-flex flex-column justify-content-center align-items-center"
       >
-        <h1>Lean OS</h1>
-        <h2>Custom ROM for android devices</h2>
+        <h1 class="animated fadeInUp">Lean OS</h1>
+        <h2 class="animated fadeInUp delay-1s">Custom ROM for android devices</h2>
+        <button class="btn btn-dark custom-btn">Download For Your Phone</button>
       </section>
       <section class="feature-section container my-5">
         <h1 class="py-5">Features</h1>
         <div class="d-flex flex-wrap justify-content-center">
-          <div class="card" style="width: 320px;">
+          <div class="card" style="width: 320px;margin: 1rem">
             <img
               class="card-image-top"
               alt="card image"
@@ -49,11 +48,11 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 320px;">
+          <div class="card" style="width: 320px;margin: 1rem" >
             <img
               class="card-image-top"
               alt="card image"
-              src="https://images.unsplash.com/photo-1462134750340-65243d62962b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=320"
+              src="https://images.unsplash.com/photo-1518948342657-f36b9ade47b4?&fit=crop&w=320&q=320"
             />
             <div class="card-body">
               <h3 class="card-title">Stable</h3>
@@ -64,11 +63,11 @@
               </p>
             </div>
           </div>
-          <div class="card" style="width: 320px;">
+          <div class="card" style="width: 320px;margin: 1rem">
             <img
               class="card-image-top"
               alt="card image"
-              src="https://images.unsplash.com/photo-1513908957990-b2790723edbf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=320"
+              src="https://images.unsplash.com/photo-1518948342657-f36b9ade47b4?&fit=crop&w=320&q=320"
             />
             <div class="card-body">
               <h3 class="card-title">Latest Features</h3>
@@ -84,17 +83,17 @@
       <section
         class="moreinfo-section d-flex container justify-content-around my-5"
       >
-        <div class="contributers">
+        <div class="contributers animated fadeInUp">
           <h3>Contributers</h3>
-          <ul class="list-group list-group-flush">
+          <ul class="list-group custom-list list-group-flush ">
             <li class="list-group-item">Saurabh Sharma</li>
             <li class="list-group-item">Makashi Hatake</li>
             <li class="list-group-item">Lorem Ispum</li>
           </ul>
         </div>
-        <div class="devices">
+        <div class="devices animated fadeInUp">
           <h3>Supported Devices</h3>
-          <ul class="list-group list-group-flush">
+          <ul class="list-group list-group-flush custom-list">
             <li class="list-group-item">redmi 5A</li>
             <li class="list-group-item">redmi 4</li>
             <li class="list-group-item">redmi Note 3</li>
@@ -103,21 +102,7 @@
       </section>
       <section class="footer-section">
         <div class="container d-flex justify-content-around my-5">
-          <a href="https://www.facebook.com/"
-            ><i class="fa fa-facebook-square fa-2x">Facebook</i
-          ></a>
-          <a href="https://twitter.com/"
-            ><i class="fa fa-twitter-square fa-2x">Twitter</i
-          ></a>
-          <a href="https://plus.google.com/"
-            ><i class="fa fa-google-plus-square fa-2x">Google Plus</i
-          ></a>
-          <a href="mailto:user@gmail.com"
-            ><i class="fa fa-envelope-square fa-2x">Mail</i
-          ></a>
-        </div>
-        <div class="container d-flex justify-content-around my-5">
-            <h4>MADE BY <a href="https://itsjzt.github.io">@ITSJZT</a></h4> 
+            <p>made by <a href="https://itsjzt.github.io">@itsjzt</a></p>
           </div>
       </section>
     </main>
@@ -132,5 +117,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="script.js"></script>
+    <script type="text/javascript" src="ripple.js"></script>
   </body>
 </html>
